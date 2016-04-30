@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                style="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="练习轮滑的注意事项:" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="1.练习轮滑前，应先做好准备活动，尤其是手腕和下肢各关节及韧带，要充分活动开。" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="2.如有可能，应戴一些防护用具，如轮滑专用的护腕、护肘、护膝及头盔等。现在很多体育商店都有这种轮滑的专用护具。" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="3.练习前要检查轮滑鞋的螺丝等紧固部件，以免滑行中因轮滑鞋出问题而受伤。" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="4.初学者应在初学场内或规定范围内练习，或尽可能在人少的地方练习，不要任意滑行。初次学习轮滑时，最好有滑行熟练的同伴或辅导员进行辅导。" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="5.禁止做危险或妨碍他人的动作，特别是在人多的公共轮滑场内，如几人拉手滑行，在速滑跑道上逆行或与大家滑行方向逆行，乱蹦乱跳，在场内横插乱窜，追逐打闹，突然停止等，这都是既妨碍他人，又容易发生危险的事情。如果在公路上滑行，更要注意交通安全，最好要在人少车少的地方练习。" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="6.学习轮滑时摔跤是不可避免的，但要学会在摔跤时做自我保护。方法是：当要向前或向侧摔倒时，要主动屈膝下蹲，用双手撑地缓冲，减小摔倒的力量；当要向后摔倒时，也要主动屈膝下蹲，降低重心，尽量让臀部先坐下，并注意保护尾骨处，同时低头团身，避免头部向后仰磕地；摔倒时应尽量避免直臂单手撑地，这样很容易损伤手腕。" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="7.患有严重疾病的人（如有心脏病、高血压等）不宜参加激烈的轮滑活动，最多可以慢速少滑锻炼一下。此外，饮酒后和过度疲劳的人也不宜参加轮滑活动。
+直排轮滑运动安全常识" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="轮滑上路前应注意的事项:"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="1.作好热身活动。
+和参加任何运动一样，每次练习前都应先作准备活动，玩轮滑也是一样。让全身主要关节动一动、拉拉筋，尤其是脚踝、膝盖、大腿关节与腰部。
+" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="2.穿戴上护具。
+全套护具应包含：头盔、护肘、护膝与护掌。
+" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="3.运用常识选择安全的场合。
+不要在车道、斜坡、有油渍或积水的地面等地方玩轮滑；运用常识判断，以安全为要。
+" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="4.了解自己的程度、知道自己的极限。
+依自己的情况玩轮滑，要学习新的技巧或动作时应有人指导，并且特别小心。
+" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="
+5. 上课。
+找一个好教练来上课，不断累积专业知识与轮滑技巧，并可由教练处得到玩轮滑的安全常识。国内的极限运动由于开展的晚，有关这方面的专业教练几乎没有，都是一些轮滑极限高手通过录象、电视等媒体观摩自学的。如果有高手在旁指点，学起来将有事半功倍的效果，而且容易纠正错误。" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

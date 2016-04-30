@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                style="?android:textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="滑行" />
+
+            <TextView
+                style="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="双脚滑行" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+　　站立，用右脚内刃向侧后方蹬地，把身体重心移到左脚上，蹬地后的右脚迅速收回与左脚平行成双脚向前滑行。当向前滑行将要停止时，再用左脚内刃向侧后方蹬地，蹬地后迅速收回与右脚平行成双脚向前滑行。两脚依次交替蹬地连续向前滑行。
+　　1.原地两脚分成“八”字形站立，先做左脚内刃向侧后方蹬地的双脚滑行。两臂向侧前方伸出，以便维持身体平衡。开始时，左脚内刃蹬地的力量要小些，蹬地时步幅小一些，逐渐加大。当左脚蹬地双脚滑行有一定技术后，应换右脚蹬地的双脚滑行。
+　　2.在上述练习较熟练后，即进行两脚轮换蹬地的双脚滑行。" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                android:src="@drawable/slide_1" />
+
+            <TextView
+                style="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="前葫芦步" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+　　开始以双脚内刃站立，起滑时身体稍前倾，两膝弯曲用力，两脚尖向外，两臂左右伸开帮助维持身体平衡。当双脚向前外滑出至最大弧线时（两脚稍宽于肩），两脚尖迅速内收入靠拢，恢复至开始姿势。连续做双脚的分开与靠拢，就能够不断向前滑进。
+　　1.在完成滑行练习后，从原地站立开始，向前滑出，两脚尖外展，两膝稍屈，两脚跟用力下压滑至最大弧线时，两脚尖内收靠拢，恢复至开始姿势。
+　　2.从静止原地站立开始，做双脚前滑，体会惯性前滑，脚和膝的协调配合动作。" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                android:src="@drawable/slide_2" />
+
+            <TextView
+                style="?android:textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="停止" />
+
+            <TextView
+                style="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="\“T\”形停止法" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+　　单脚向前滑行开始，浮足在滑行脚的后跟处成“T”形放好后，将浮足慢慢放在地面上以内侧轮柔和地压紧地面，减缓向前滑行速度，直到停下来为止。
+　　练习方法
+　　1.原地左脚在前，右脚在后成“T”形站立，右脚以内侧轮蹬地，左脚向前滑行，随后右脚在左脚跟后做“T”形停止动作，速度可由稍慢开始，以便体会动作。
+　　2.在上述动作完成的基础上，加快向前滑行速度，按照“T”形停止动作进行练习。" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                android:src="@drawable/stop_1" />
+
+            <TextView
+                style="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="内\“八\”字停止法" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+　　在获得一定向前滑行速度后，两脚平行分开站立，随后脚尖内转，两脚以内侧轮柔和地压紧地面，两腿弯曲，上体稍前倾、臀部下蹲，两臂前伸维持身体平衡，就会逐渐减速至停止。
+　　练习方法
+　　1.在向前滑行时，两脚平行分开站立，先使右脚脚尖内转，以内侧轮柔和地压紧地面，身体重心稍向左移，按照上述姿势完成动作。
+　　2.在上述动作基础上，再按照内“八”字停止方法进行练习。速度可由慢到快、循序渐进。" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                android:src="@drawable/stop_2" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

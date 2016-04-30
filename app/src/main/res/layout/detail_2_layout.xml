@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        学习轮滑首先要选择一双合适的轮滑鞋，年级小的可以先买一双休闲鞋练习基础，
+        如果你的身体应经定型了，脚的骨骼够结实了，可以买一双平地花式轮滑鞋，练习花式过桩或花式刹停" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+       区分一下休闲鞋和平花鞋下图一为休闲鞋，四个轮在同一条线上；
+       下图二为平花鞋，四个轮程弧线形，便于转弯和做动作。" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerInside"
+                android:src="@drawable/tool_1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerInside"
+                android:src="@drawable/tool_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+       先来了解一下平花鞋的各个部件名称与作用吧，
+       CUFF的作用是支撑脚踝的，
+       “蘑菇钉“固定上鞋和CUFF的，
+       刀架是联接上鞋和轮子的，
+       防磨片的作用就是摔倒的时候保护鞋子和脚，
+       魔术扣是固定前脚掌的，
+       能量带是固定脚背的，
+       扒扣是用来调节CUFF的松紧度与舒适度的" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerInside"
+                android:src="@drawable/tool_3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+       休闲鞋与平花鞋部分相同，
+       刹车块是用来刹车减速的，
+       在鞋的脚掌部位可以调节大小，
+       魔术扣是用来固定脚背的" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerInside"
+                android:src="@drawable/tool_4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+       轮滑鞋的种类有速滑鞋 平地花式鞋 极限鞋 速降鞋 休闲鞋 等，功能与价位不同，选择一双好的轮滑鞋尤为重要" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

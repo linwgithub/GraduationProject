@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <TextView
+                style="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="简介" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                轮滑鞋分为双排轮滑（QUAD Roller Skating）和单排轮滑（Inline Roller Skating），
+                两种类型的轮滑鞋又有着各自的项目，由于文革等原因，国内轮滑领域发展较晚，没有经过系统发展的后果导致了项目不完善，以至于国内玩家偏向于直排轮滑，认识不完整导致认为双排轮滑的落伍，而国内有不少说法是有双排基础想练单排，或双排转单排之类的都是片面的，非常外行的说法，双排轮滑和单排轮滑作为运动器材都有着很高的国际地位，因为这是两种不同的运动器材！" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                轮滑是很棒的代步工具，如果选对了类型，双排轮滑和单排轮滑都是可以刷街的，有人说双排轮滑不能刷街，这是非常不客观，宽轮的路面适应能力是强过窄轮的，就像山地车和公路车的关系一样，双排轮滑的代步是和长板不相伯仲的，所有轮滑鞋代步，尤其是速滑鞋的刷街性能最为实用。" />
+
+            <TextView
+                style="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="分类" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="花样
+花样轮滑是所有观赏性轮滑项目的根源，观赏性轮滑文化均是由花样轮滑发展而来的，
+花样轮滑运动比赛项目。包括男、女单人滑；男、女双人滑；舞蹈（男、女双人）三项。单人滑包括规定图形" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerInside"
+                android:src="@drawable/kind_1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自由式
+（FreeStyle），其中最有代表性的就是Slalom，即平地花式（简称平
+花）。平地花式和花式刹停都是自由式轮滑的子项目。
+平地花式包括花式绕桩和速度过桩。世界轮滑皇帝圣巴斯蒂安（Sebastien Laffargue）简称SEBA，可以说是Slalom的鼻祖。以障碍滑雪为灵感基础，再加上轮滑特有的元素，才慢慢发展成了现今的Slalom。
+休闲轮滑就是俗称的刷街。是一种穿着轮滑鞋漫步于室外，感受轮滑带给人的轻松、愉快和自在的轮滑形式。它主要以休闲健身为目的，放松自我，舒畅心情。" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerInside"
+                android:src="@drawable/kind_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FSK是一种由多种轮滑形式混合而衍生出的一种特殊的轮
+滑形式。集合了休闲、刷街、花式刹车、花式跳跃、旋转等元素。大致分为野街和场地两种玩法。野街就是在刷街的过程中融入速降、花式跳跃等其他轮滑形式，使得野街的魅力无穷。场地FSK主要就是在一定的场地内花式刹停、花式旋转等，当然也有其他的轮滑形式融汇进去。" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="速降
+一种相对较刺激的类似速滑的轮滑形式。一般选择在比较陡
+峭的公路或山路进行。速降者在佩戴好全套护具之后，靠路面的倾斜给予动力，人体自由下落，感受风驰电掣般的刺激。
+速降轮滑(Down Hill Roller Skating)，分为两个组别，双排轮滑组别和单排轮滑组别，还有衍生项目障碍速降和速降轮滑衣，是极
+限运动里非常有代表力的运动项目，所使用的轮滑鞋都是特质轮滑鞋，两种组别分别拥有各自的锦标赛，但也可以和速降滑板、速降三轮车、速降dh车混合比赛。
+" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerInside"
+                android:src="@drawable/kind_3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="轮滑球
+轮滑球被誉为轮滑项目的最高境界。值得注意的是双排轮滑球
+双排轮滑球
+双排轮滑球
+赛使用的是真正的圆球，而单排轮滑球赛使用的是球并。
+轮滑球是一项不直接接触球的运动。比赛队员穿着双排轮或单排轮进行比赛。比赛双方各上4名场上队员和一名守门员。该项运动起源于1896年的英格兰。尽管轮滑曲棍球起源于英格兰，但这项运动在一些拉丁语系国家例如西班牙、葡萄牙和阿根挺更加流行。这些国家都 有职业俱乐部，如巴塞罗那、波尔图和拉科鲁尼亚，有超过5000名的职业球员从事这项运动。轮滑球运动通过国际奥委会的承认成立世界赛事。
+" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerInside"
+                android:src="@drawable/kind_4" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

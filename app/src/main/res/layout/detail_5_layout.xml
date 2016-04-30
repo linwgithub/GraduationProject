@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="初学轮滑者一定要有耐心，请记住以下禁忌：" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+        滑行前不做准备活动，不戴护具，滑行后立即喝水。初学时一定要注意培养正确姿势，滑行时腰、膝、踝关节保持弯曲，降低身体重心，身体失去平衡时要向下蹲。" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+        以下是高手总结出的口诀，不妨看看：
+        滑需团身，弯曲求稳，重心稍后，欲进先侧，先蹬后落，斜中求正，先倾后蹬，先蹬后落，跨部摆动，三点对齐。
+
+        平衡是掌握轮滑的基础。由于轮滑鞋与地面接触面积小，加之滑轮与地面摩擦后的滚动，所以就不易掌握平衡。练习平衡是非常重要的，具体的做法是：
+" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+        1、原地踏步，练习静平衡，熟悉轮滑的性能；" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+        2、用互助法和扶助法练习平衡，两个人相互扶助或双手扶住身边的其他物体，前后左右移动，练习平衡技术；" />
+</LinearLayout>
